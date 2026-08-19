@@ -1,0 +1,16 @@
+{
+  "name": "Klugle Engine",
+  "slug": "klugle-engine",
+  "version": "4.25.0",
+  "download_url": "https://github.com/GregS1000RR/klugle-engine-release/releases/download/v4.25.0/klugle-engine-4.25.0.zip",
+  "homepage": "https://github.com/GregS1000RR/klugle-engine-release",
+  "author": "Klugle Dev Unit",
+  "requires": "6.0",
+  "tested": "6.8",
+  "requires_php": "7.4",
+  "last_updated": "2026-08-19 15:20:42",
+  "sections": {
+    "description": "Klugle Engine -- plugin interne Klugle, distribue hors annuaire WordPress.org.",
+    "changelog": "<h4>4.25.0</h4><p>Mécanisme de mise à jour standard WordPress (includes/updater.php) — le plugin apparaît désormais dans Tableau de bord &gt; Mises à jour et signale les nouvelles versions dans la liste des extensions. En-tête « Update URI: » + hook natif update_plugins_{hostname} (WP 5.8+) interrogeant un manifeste JSON public sur le dépôt de release GitHub klugle-engine-release (aucune source exposée : le dépôt ne contient que le manifeste et le ZIP en asset de Release). Fiche « Voir les détails » via plugins_api, cache transient 12 h, purge après installation. Cohabite avec le déploiement Plesk : une Release n'est publiée que manuellement, et WP ne propose jamais de rétrogradation. Licence alignée sur GPL-2.0+ (en-tête License/License URI) au moment où la publication publique des paquets rend le projet distribué au sens de la GPL ; réserves de marque et de contenus dans NOTICE.md.</p>"
+  }
+}
